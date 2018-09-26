@@ -1,0 +1,29 @@
+/* FOOTER */
+.sm-button {
+    border: none;
+	color: #FFFFFF;
+	padding: 0.5em 1em;
+}
+
+.sm-button:hover {
+    opacity: 0.9;
+}
+
+.sm-button.icon:before {
+	font-family: "Ionicons";
+	padding-right: 0.5em;
+}
+
+.sm-button.icon.facebook:before {
+    content: "\f231";
+}
+.sm-button.icon.facebook {
+    background: #3b5998;
+}
+
+.sm-button.icon.youtube:before {
+    content: "\f24d";
+}
+.sm-button.icon.youtube {
+    background: #cd201f;
+}
