@@ -14,4 +14,14 @@ class HomeController extends BaseController
     {
       return View::make('pages.warta');
     }
+
+    public function agenda()
+    {
+      return View::make('pages.agenda');
+    }
+
+    public function artikel()
+    {
+      return View::make('pages.artikel');
+    }
 }

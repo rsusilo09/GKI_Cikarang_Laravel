@@ -19,7 +19,7 @@
       <!-- End Topper -->
       <!-- Navigation -->
       <div class="row">
-        <nav class="navbar navbar-inverse" role="navigation">
+        <nav class="navbar navbar-inverse navbar--bottom" role="navigation">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -63,7 +63,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="{{ url ('/') }}">Artikel</a>
+                  <a href="{{ url ('artikel') }}">Artikel</a>
                 </li>
                 <li>
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fasilitas
@@ -82,7 +82,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="{{ url ('/') }}">Agenda</a>
+                  <a href="{{ url ('agenda') }}">Agenda</a>
                 </li>
                 <li>
                   <a href="{{ url ('/') }}">Kontak Kami</a>

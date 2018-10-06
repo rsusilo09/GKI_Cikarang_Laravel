@@ -1,4 +1,4 @@
-@extends('template')
+@extends('layout.template')
 @section('title', 'Warta Jemaat')
 @section('content')
   <div class="container" style="min-height: 400px;" >

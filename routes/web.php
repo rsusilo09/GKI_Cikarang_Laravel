@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('jumbotron');
 });
 
+//Dashboard Routing
 Route::get('warta', ['as'=>'warta', 'uses'=>'HomeController@warta']);
+Route::get('agenda', ['as'=>'agenda', 'uses'=>'HomeController@agenda']);
+Route::get('artikel', ['as'=>'artikel', 'uses'=>'HomeController@artikel']);

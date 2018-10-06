@@ -8,7 +8,9 @@
 <html lang="en">
 <head>
     @extends('layout.head')
-    <!-- @yield('title') -->
+    <title>
+    GKI Cikarang - @yield('title')
+    </title>
 </head>
 
 <body>
@@ -17,9 +19,9 @@
         @extends('layout.navigasi')
     </header>
 
-    <!-- <div class="content">
-        @yield('content')
-    </div> -->
+    <div class="content">
+        @section('content')
+    </div>
 
     @extends('layout.script')
 
