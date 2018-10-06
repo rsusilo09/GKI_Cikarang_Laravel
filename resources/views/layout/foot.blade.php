@@ -1,4 +1,4 @@
-@Section('foot')
+@section('foot')
 <!-- FOOTER -->
 <footer>
   <!-- BARIS FOOTER ATAS -->

@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('template');
+    return view('jumbotron');
 });
 
 Route::get('warta', ['as'=>'warta', 'uses'=>'HomeController@warta']);

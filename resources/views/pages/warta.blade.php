@@ -1,7 +1,6 @@
 @extends('template')
 @section('title', 'Warta Jemaat')
 @section('content')
-  <!-- ISI -->
   <div class="container" style="min-height: 400px;" >
     <div class="row">
       <div class="col-xd-12 text-center">
@@ -12,3 +11,4 @@
       </div>
     </div>
   </div>
+@stop
