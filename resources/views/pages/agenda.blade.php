@@ -1,5 +1,5 @@
 @extends('layout.template')
-@section('title', 'Artikel')
+@section('title', '- Agenda')
 @section('content')
   <div class="container">
     <div class="row">

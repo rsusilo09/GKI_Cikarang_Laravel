@@ -9,7 +9,7 @@
 <head>
     @extends('layout.head')
     <title>
-    GKI Cikarang - @yield('title')
+    GKI Cikarang @yield('title')
     </title>
 </head>
 

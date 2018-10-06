@@ -1,5 +1,4 @@
 @extends('layout.template')
-@section('title', 'Warta Jemaat')
 @section('content')
 <div id="jumbotron-top">
     <div class="container-fluid">

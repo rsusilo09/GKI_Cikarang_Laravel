@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('warta', ['as'=>'warta', 'uses'=>'HomeController@warta']);
 Route::get('agenda', ['as'=>'agenda', 'uses'=>'HomeController@agenda']);
 Route::get('artikel', ['as'=>'artikel', 'uses'=>'HomeController@artikel']);
+
+
+//Admin Routing
+Route::get('admin', ['as'=>'admin', 'uses'=>'AdminController@homepage']);
